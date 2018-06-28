@@ -36,7 +36,7 @@ def ussd_callback():
         menu_text = "END Your Token balance is: "+ str(token)
         
     elif text =="1*2":
-        menu_text = "END Your account number is ACOO10SWO2101."
+        menu_text = "END Your account number is KPOO10SWO2101."
     
     elif text =="2*"+userResponse:
         send_sms("Thank you the amount paid in is: ", userResponse)
